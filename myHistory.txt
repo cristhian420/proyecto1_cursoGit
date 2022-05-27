@@ -1,2 +1,3 @@
 esta es mi historia
-soy cristhian salas perrillos
+soy cristhian salas perrillo
+esta es la historia de como voy aprendiendo git mientras actualizo el archivo
