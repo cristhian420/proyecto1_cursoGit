@@ -20,7 +20,7 @@
     font-size: 70px;
 }
 .main p{
-    color: black;
+    color: red;
     font-size: 300;
 }
 .nav ul{
@@ -31,7 +31,8 @@
 .nav {
     display: flex;
     justify-content: flex-end;
-    background-color: black;
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(0,108,185,1) 100%);
     align-items: center;
     
 }
