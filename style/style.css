@@ -1,38 +1,58 @@
 *{
     padding: 0;
     margin: 0;
+    font-family: 'Raleway', sans-serif;
 
 }
 .main {
-    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
     background: rgb(34,193,195);
     background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(0,108,185,1) 100%);
+    height: 70vh;
+    width: 100%;
 }
 .main h1{
     color: white;
-    font-size: 60px;
-    font-family: 'Nosifer', cursive;
+    font-weight: 900;
+    font-size: 70px;
 }
 .main p{
     color: black;
 }
 .nav ul{
     list-style-type: none;
+    display: flex;
+    color: #67EFFF;
 }
 .nav {
     display: flex;
     justify-content: flex-end;
-    background-color: whitesmoke;
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(0,108,185,1) 0%, rgba(34,193,195,1) 100%);
     align-items: center;
-    border-bottom: coral;
     
+}
+.nav ul li {
+    margin: 3px;
+    color: #67EFFF;
 }
 .botonAccion {
     background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
-    border-radius: 50%;
+    border-radius: 35%;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 70px;
     width: 90px;
+    margin-bottom: 5px;
+}
+.boton {
+    background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+    border-style: hidden;
+}
+.botonAccion .boton:hover {
+    background-color: black;
 }
