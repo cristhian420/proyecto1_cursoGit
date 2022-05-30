@@ -21,6 +21,7 @@
 }
 .main p{
     color: black;
+    font-size: 300;
 }
 .nav ul{
     list-style-type: none;
@@ -30,8 +31,7 @@
 .nav {
     display: flex;
     justify-content: flex-end;
-    background: rgb(34,193,195);
-    background: linear-gradient(0deg, rgba(0,108,185,1) 0%, rgba(34,193,195,1) 100%);
+    background-color: black;
     align-items: center;
     
 }
