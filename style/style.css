@@ -57,3 +57,12 @@
 .botonAccion .boton:hover {
     background-color: black;
 }
+.containerFooter {
+    background-color: cornflowerblue;
+    color: whitesmoke;
+    height: 10vh;
+    text-align: center;
+}
+.containerFooter span a:hover {
+    color: red;
+}
